@@ -1,1 +1,145 @@
-# mephi.conference.uz
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>V Республиканская научно-практическая конференция «Современные проблемы физики, энергетики и теплотехники» — архив</title>
+<style>
+:root{--bg:#f4f7fb;--card:#fff;--text:#0f1b2d;--muted:#5b6b82;--acc:#0a7cff;--acc2:#00c2a8;--line:#dbe3ee;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#070d1a;--card:#0f1a2e;--text:#e8f0ff;--muted:#8fa3c2;--line:#1d2c47}}
+:root[data-theme="dark"]{--bg:#070d1a;--card:#0f1a2e;--text:#e8f0ff;--muted:#8fa3c2;--line:#1d2c47}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.55}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;justify-content:space-between;align-items:center;padding:12px 5vw;background:var(--card);border-bottom:1px solid var(--line)}
+.logo{font-weight:800;letter-spacing:.5px}.logo span{color:var(--acc)}
+nav a{margin-left:18px;color:var(--muted);text-decoration:none;font-size:14px}nav a:hover{color:var(--acc)}
+.hero{position:relative;overflow:hidden;text-align:center;padding:84px 5vw 76px;background:radial-gradient(circle at 50% 0,rgba(10,124,255,.25),transparent 60%)}
+.atom{position:relative;width:140px;height:140px;margin:0 auto 24px}
+.atom i{position:absolute;inset:0;border:2px solid var(--acc);border-radius:50%;transform:rotateX(70deg)}
+.atom i:nth-child(2){transform:rotateX(70deg) rotateZ(60deg);border-color:var(--acc2)}
+.atom i:nth-child(3){transform:rotateX(70deg) rotateZ(120deg)}
+.atom b{position:absolute;left:50%;top:50%;width:22px;height:22px;margin:-11px;border-radius:50%;background:linear-gradient(135deg,var(--acc),var(--acc2));box-shadow:0 0 30px var(--acc)}
+.atom{animation:spin 14s linear infinite;transform-style:preserve-3d}
+@keyframes spin{to{transform:rotateY(360deg)}}
+@media (prefers-reduced-motion:reduce){.atom{animation:none}}
+h1{font-size:clamp(24px,4vw,42px);max-width:920px;margin:0 auto 14px;line-height:1.2}
+.hero p{max-width:660px;margin:0 auto 24px;color:var(--muted)}
+.btn{display:inline-block;padding:11px 22px;border-radius:999px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;text-decoration:none;font-weight:600;border:0;cursor:pointer;font-size:15px}
+.btn.o{background:none;color:var(--acc);border:1.5px solid var(--acc)}
+section{padding:56px 5vw;max-width:1100px;margin:auto}
+h2{font-size:28px;margin:0 0 6px}
+h3.sec-title{font-size:20px;margin:28px 0 14px}
+.sub{color:var(--muted);margin:0 0 24px}
+.lead{font-size:16px;margin:0 0 22px}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.tab{padding:9px 20px;border-radius:999px;border:1.5px solid var(--line);background:var(--card);color:var(--text);cursor:pointer;font-weight:600;font-size:15px}
+.tab.on{background:var(--acc);border-color:var(--acc);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.grid-2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card h3{margin:0 0 8px;font-size:17px}.card p{color:var(--muted);margin:0 0 16px;font-size:14px}
+.card p:last-child{margin-bottom:0}
+.ico{font-size:28px;margin-bottom:10px}
+.outro{margin:24px 0 0;padding:18px 22px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--acc);border-radius:12px;color:var(--text)}
+.photos{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px}
+.ph{aspect-ratio:4/3;border-radius:14px;display:flex;align-items:flex-end;padding:10px;color:#fff;font-size:13px;font-weight:600;cursor:pointer;transition:transform .2s}
+.ph:hover{transform:scale(1.03)}
+.stats{display:flex;gap:30px;justify-content:center;flex-wrap:wrap;margin-top:34px}
+.stats div{font-size:13px;color:var(--muted)}.stats b{display:block;font-size:30px;color:var(--text)}
+footer{text-align:center;padding:30px 5vw;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header><div class="logo">РНПК<span> · V</span></div>
+<nav><a href="#archive">Архив</a><a href="#photos">Фотобанк</a><a href="#about">О конференции</a></nav></header>
+
+<div class="hero">
+<div class="atom"><i></i><i></i><i></i><b></b></div>
+<h1>V Республиканская научно-практическая конференция<br>«Современные проблемы физики, энергетики и теплотехники»</h1>
+<p>Архив материалов, сборники статей и тезисов, а также фотохроника конференции в одном месте.</p>
+<a class="btn" href="#archive">Открыть архив</a> <a class="btn o" href="#photos">Фотобанк</a>
+<div class="stats"><div><b>V</b>конференция</div><div><b>4</b>секции</div><div><b>40+</b>докладов</div></div>
+</div>
+
+<section id="archive">
+<h2>Архив по годам</h2>
+<p class="sub">Выберите год, чтобы скачать сборники и открыть фотографии.</p>
+<div class="tabs" id="tabs"></div>
+<div class="grid" id="files"></div>
+</section>
+
+<section id="photos">
+<h2>Фотобанк <span id="py"></span></h2>
+<p class="sub">Нажмите на фото, чтобы открыть его в полном размере.</p>
+<div class="photos" id="gallery"></div>
+</section>
+
+<section id="about">
+<h2>О конференции</h2>
+<p class="lead"><strong>V Республиканская научно-практическая конференция «Современные проблемы физики, энергетики и теплотехники»</strong> объединила учёных, представителей профильных организаций, инженеров, преподавателей, молодых исследователей и студентов для обмена научным опытом, представления результатов исследований и обсуждения актуальных задач в области физики, энергетики и теплотехники.</p>
+
+<div class="grid-2">
+  <div class="card">
+    <h3>Открытие и организаторы</h3>
+    <p>В открытии конференции приняли участие представители руководства НИЯУ МИФИ, Агентства «Узатом», Академии наук Республики Узбекистан, Института ядерной физики и Госкорпорации «Росатом».</p>
+  </div>
+  <div class="card">
+    <h3>Пленарное заседание</h3>
+    <p>В рамках пленарного заседания были представлены доклады, посвящённые перспективам развития атомной энергетики в Узбекистане, моделированию переноса нейтронов, роботизированным системам радиационного мониторинга, эксплуатации парогазовых установок, повышению эффективности энергетического оборудования и вопросам безопасности топливно-энергетического комплекса.</p>
+  </div>
+</div>
+
+<h3 class="sec-title">Секционные заседания по четырём направлениям</h3>
+<div class="grid">
+  <div class="card">
+    <div class="ico">⚛️</div>
+    <h3>Ядерная физика и технологии, теплофизика и материаловедение</h3>
+  </div>
+  <div class="card">
+    <div class="ico">⚡️</div>
+    <h3>Энергетика и электротехника, теплотехника и инженерное дело</h3>
+  </div>
+  <div class="card">
+    <div class="ico">💻</div>
+    <h3>Моделирование сложных систем и информационные технологии</h3>
+  </div>
+  <div class="card">
+    <div class="ico">📚</div>
+    <h3>Гуманитарные науки: история, философия, филология, психология, социология и другие направления</h3>
+  </div>
+</div>
+
+<p class="outro">Участники представили результаты исследований и разработки, обсудили научные подходы и обменялись мнениями с коллегами и экспертами. В завершение состоялось награждение победителей секционных заседаний.</p>
+</section>
+
+<footer>© 2026 V Республиканская научно-практическая конференция «Современные проблемы физики, энергетики и теплотехники» · Сайт на GitHub Pages</footer>
+
+<script>
+// Редактируйте только этот блок: годы, ссылки на PDF и подписи к фото.
+var YEARS={
+ 2026:{articles:"files/2026/sbornik-statey.pdf",theses:"files/2026/sbornik-tezisov.pdf",photos:["Открытие","Пленарное заседание","Секционные заседания","Награждение"]},
+ 2025:{articles:"files/2025/sbornik-statey.pdf",theses:"files/2025/sbornik-tezisov.pdf",photos:["Открытие","Пленарное заседание","Секции","Награждение"]},
+ 2024:{articles:"files/2024/sbornik-statey.pdf",theses:"files/2024/sbornik-tezisov.pdf",photos:["Открытие","Доклады","Секции","Награждение"]},
+ 2023:{articles:"files/2023/sbornik-statey.pdf",theses:"files/2023/sbornik-tezisov.pdf",photos:["Открытие","Секции","Участники"]},
+ 2022:{articles:"files/2022/sbornik-statey.pdf",theses:"files/2022/sbornik-tezisov.pdf",photos:["Открытие","Доклады","Участники"]}
+};
+var G=[["#0a7cff","#00c2a8"],["#7a3cff","#0a7cff"],["#ff7a3c","#ffb703"],["#00c2a8","#2b9348"],["#e63980","#7a3cff"],["#0a3cff","#00b4d8"]];
+var cur=Object.keys(YEARS).sort().reverse()[0];
+function show(y){
+ cur=y;
+ var d=YEARS[y];
+ document.getElementById("tabs").innerHTML=Object.keys(YEARS).sort().reverse().map(function(k){
+  return '<button class="tab'+(k==y?' on':'')+'" onclick="show('+k+')">'+k+'</button>';}).join("");
+ document.getElementById("files").innerHTML=
+  '<div class="card"><div class="ico">📚</div><h3>Сборник статей '+y+'</h3><p>Один PDF-файл со всеми статьями участников.</p><a class="btn" href="'+d.articles+'" download>Скачать PDF</a></div>'+
+  '<div class="card"><div class="ico">📝</div><h3>Сборник тезисов '+y+'</h3><p>Один PDF-файл со всеми тезисами докладов.</p><a class="btn" href="'+d.theses+'" download>Скачать PDF</a></div>';
+ document.getElementById("py").textContent=y;
+ document.getElementById("gallery").innerHTML=d.photos.map(function(t,i){
+  var g=G[i%G.length];
+  return '<div class="ph" style="background:linear-gradient(135deg,'+g[0]+','+g[1]+')" onclick="alert(\'Здесь откроется фото: images/'+y+'/'+(i+1)+'.jpg\')">'+t+'</div>';}).join("");
+}
+show(cur);
+</script>
+</body>
+</html>
